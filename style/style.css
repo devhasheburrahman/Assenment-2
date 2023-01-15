@@ -56,10 +56,11 @@ body {
 .button {
     background-color: #FF900E;
     border-radius: 8px;
-    width: 180px;
+    width: 150px;
     height: 64px;
     border: none;
     text-align: center;
+    color: #FFFFFF;
 
 }
 
@@ -281,16 +282,52 @@ body {
 
 .sponcer-head {
     padding: 50px 100px 50px 100px;
-
-    /* padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     opacity: 30%;
 
 }
+
+/* contact us  */
+.contacts {
+    background-color: mistyrose;
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+
+}
+
+.address {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    height: 30px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-titel {
+    font-size: 40px;
+    color: #131313;
+
+}
+
+.contact-discription {
+    color: #727272;
+    font-size: 24px;
+}
+
+
+
+
+
 
 /* footer */
 .footer {
