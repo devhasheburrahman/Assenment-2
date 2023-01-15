@@ -20,6 +20,7 @@ body {
 .nav {
     display: flex;
     gap: 20px;
+    color: #424242;
 }
 
 .section-herader {
@@ -73,4 +74,232 @@ body {
 
 
 
+}
+
+
+/* <!-- section- grid with flex box--> */
+.section-3 {
+    display: flex;
+    gap: 50px;
+    width: 50%;
+}
+
+.box-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box-2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.section-3 img {
+    width: 300px;
+    height: 300px;
+
+}
+
+.box-titel {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.bolt {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.color {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+
+}
+
+.box-discription {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 40px;
+
+}
+
+
+/* feature section */
+.feature {
+    display: flex;
+    gap: 10px;
+}
+
+.feature-header {
+    padding-left: 95px;
+}
+
+.feature img {
+
+    width: 400px;
+    height: 840px;
+    padding-right: 100px;
+}
+
+.feature-titel {
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 2px solid red;
+}
+
+
+
+.feature-box-titel {
+    font-weight: 600;
+    font-size: 24px;
+    color: #131313;
+    padding-top: 20px;
+}
+
+.feature-discription {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 10px;
+
+}
+
+.feature-box {
+    padding-left: 20px;
+    width: 480px;
+    height: 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.exp-button {
+    background: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 200px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+
+
+
+
+}
+
+.Experience {
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+/* Some Facts section */
+.fact {
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.fact-headers {
+    padding-left: 40px;
+    margin-bottom: 40px;
+}
+
+.fact-titel {
+    font-size: 30px;
+    width: 700;
+}
+
+.fact-discription {
+    font-size: 16px;
+    color: #727272;
+}
+
+.fact-header {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.fact-box {
+    padding-top: 20px;
+
+    /* margin: 100px; */
+    text-align: center;
+    border: 1px solid #FF900E;
+    width: 140px;
+    height: 140px;
+
+}
+
+.fact-box-titel {
+
+    font-weight: 600;
+    font-size: 24px;
+    color: #424242;
+}
+
+.fact-box-discription {
+    font-size: 20px;
+    color: #727272;
+}
+
+
+/*  our- sponser */
+
+
+
+.Sponspor-header {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sponser-titel {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.Sponspors-discription {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.sponcer-head {
+    padding: 50px 100px 50px 100px;
+
+    /* padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 30%;
+
+}
+
+/* footer */
+.footer {
+    color: #424242;
+
+    padding-top: 20px;
+    text-align: center;
+    background: #FFF4E7;
+    height: 50px;
+    border-radius: 8px;
+    margin: 50px;
 }
