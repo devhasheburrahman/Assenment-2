@@ -64,6 +64,9 @@ body {
 
 }
 
+
+
+
 .picture img {
 
     width: 1063px;
@@ -72,10 +75,9 @@ body {
     margin-bottom: 50px;
     padding-left: 100px;
     padding-right: 100px;
-
-
-
 }
+
+
 
 
 /* <!-- section- grid with flex box--> */
@@ -140,6 +142,7 @@ body {
     gap: 10px;
 }
 
+
 .feature-header {
     padding-left: 95px;
 }
@@ -186,14 +189,16 @@ body {
     margin: 10px;
 }
 
+
+
 .exp-button {
     background: #FF900E;
     font-weight: 700;
     font-size: 45px;
     text-align: center;
     color: #FFFFFF;
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
     border: none;
     border-radius: 10px;
 
@@ -293,6 +298,7 @@ body {
 .contacts {
     background-color: mistyrose;
     justify-content: center;
+
     display: flex;
     gap: 100px;
     margin-left: 100px;
@@ -339,4 +345,77 @@ input {
     height: 50px;
     border-radius: 8px;
     margin: 50px;
+}
+
+
+/*---------------
+ meadia Query
+ --------------------- */
+/* mobile divice */
+
+@media screen and (max-width:576px) {
+
+    body {
+        padding: 0px;
+        width: 576px;
+    }
+
+    .section-3 img {
+        width: 576px;
+
+
+    }
+
+    .feature-box {
+
+        width: 100%;
+
+
+
+
+
+    }
+
+    .headers {
+        background-color: none;
+        padding: 0px;
+    }
+
+
+    .section-herader {
+        text-align: right;
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+
+    }
+
+
+    .section-3 {
+        margin: 0px;
+    }
+
+    .heads .fact-header .section-3 .sponcer-head {
+        flex-direction: column;
+    }
+
+    .fact-header .feature {
+
+        flex-direction: column-reverse;
+        column-gap: 10px;
+    }
+
+    .section-3 {
+        flex-direction: column;
+    }
+
+    .box-1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sponcer-head {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
 }
